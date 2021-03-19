@@ -1,0 +1,22 @@
+<hybrisconfig xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='../bin/platform/resources/schemas/extensions.xsd'>
+  <extensions>
+    <!-- Uncomment the following if you have enabled Cloud Extension Pack-->
+    <path dir='${HYBRIS_BIN_DIR}/modules-cep'  autoload='false' />
+    
+    <path dir='${HYBRIS_BIN_DIR}' autoload='false' />
+        <extension name='backoffice' />
+    <extension name='platformbackoffice' />
+    <extension name='auditreportservices' />
+    <extension name='pcmbackoffice' />
+    <extension name='backofficesolrsearch' />
+    <extension name='solrfacetsearch' />
+    <extension name='solrfacetsearchbackoffice' />
+    <extension name='solrserver' />
+
+<!-- Download the Cloud Extension Pack to get these extensions locally https://help.sap.com/viewer/dc198ac31ba24dce96149c8480be955f/1905/en-US/d6bf3abf8b974544a139c49dd3ca12a9.html?q=cloud%20extension%20pack#loioc2a6297b1b094f0cb735c12ef812d96c -->
+    <extension name='azurecloudhotfolder' />
+    <extension name='cloudcommons' />
+    <extension name='cloudhotfolder' />
+
+  </extensions>
+</hybrisconfig>
